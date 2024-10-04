@@ -11,7 +11,7 @@ This repository contains the configuration and setup for running Nginx Proxy Man
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/nginx-proxy-manager.git
+    git clone https://github.com/onovaes/nginx-proxy-manager.git
     cd nginx-proxy-manager
     ```
 
