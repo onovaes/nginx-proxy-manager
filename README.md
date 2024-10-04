@@ -15,12 +15,17 @@ This repository contains the configuration and setup for running Nginx Proxy Man
     cd nginx-proxy-manager
     ```
 
-2. Create and start the Docker containers:
+2. Create network:
+    ```sh
+    docker network create docker-network
+    ```
+
+3. Create and start the Docker containers:
     ```sh
     docker-compose up -d
     ```
 
-3. Access the Nginx Proxy Manager web interface:
+4. Access the Nginx Proxy Manager web interface:
     - Open your browser and navigate to `http://localhost:81`
     - Default login credentials:
         - **Email:** `admin@example.com`
